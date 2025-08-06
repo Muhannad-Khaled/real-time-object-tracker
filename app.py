@@ -23,7 +23,7 @@ if mode == "Upload a Video":
             st.info("Select the object in the opened window.")
             run_tracker_video(video_path)
 
-elif mode == "🎥 Live Camera":
+elif mode == "Live Camera":
     if st.button("Start Live Camera Tracking"):
         st.info("Select the object in the first frame.")
         run_tracker_live()
